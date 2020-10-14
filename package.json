@@ -1,0 +1,46 @@
+{
+  "name": "react-redux-sass-webpack-boilerplate",
+  "version": "0.0.1",
+  "description": "Ready boilerplate for dev and prod environments, using react js, redux, webpack, sass.",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "dev": "npm run clean && webpack-dev-server --open --hot --mode development",
+    "build": "npm run clean && npm run clean && webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maneeshperumalla/react-redux-sass-webpack-boilerplate.git"
+  },
+  "keywords": [
+    "Boilerplare",
+    "React",
+    "webpack",
+    "Redux"
+  ],
+  "author": "Maneesh Perumalla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maneeshperumalla/react-redux-sass-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/maneeshperumalla/react-redux-sass-webpack-boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hot-loader": "^4.13.0"
+  }
+}
