@@ -1,6 +1,5 @@
-<img src="./react-webpack-sass.jpg" alt="react boilerplate banner" align="center" />
 
-# React/Redux/Webpack/sass-boilerplate
+# React | Redux | Webpack | sass - boilerplate
 
 ## Quick start
 
