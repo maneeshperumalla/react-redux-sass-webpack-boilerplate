@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../assets/fonts/Roboto-BoldItalic.ttf") format("ttf");
+}
+
+.app-header {
+  background:#000d4a;
+  color: white;
+  height: 3.5em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999999;
+}
+
+.header-icon {
+  position: fixed;
+  &.appLogo {
+    width: 58px;
+    position: fixed;
+  }
+  &.appTitle {
+    width: 49px;
+    padding: 5px;
+    margin-left: 53px;
+  }
+}

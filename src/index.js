@@ -1,12 +1,15 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { render } from "react-dom";
+import { Provider } from "react-redux";
+import configureStore from "./redux/store/index";
+import "./styles/styles.scss";
+import RoutingContainer from "./containers/routingContainer";
 
-const App = () => {
-  return (
-    <div>
-      <h1>App</h1>
-    </div>
-  );
-};
+const store = configureStore({});
 
-ReactDOM.render(<App />, document.getElementById("root"));
+render(
+  <Provider store={store}>
+    <RoutingContainer />
+  </Provider>,
+  document.getElementById("app-root")
+);
